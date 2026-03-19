@@ -1,3 +1,5 @@
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Polenoz/K-Means-Clustering/blob/main/K_Means_Clustering_Projekt.ipynb)
+
 # K-Means Clustering Project
 
 In this project, K-Means clustering is applied to the College dataset. The goal is to group colleges into clusters based on their features and compare the results with the actual labels.
@@ -6,38 +8,39 @@ In this project, K-Means clustering is applied to the College dataset. The goal 
 
 The project uses the file:
 
-* College_Data.csv
+- College_Data
 
-Make sure this file is in the same directory as the notebook.
+The dataset is loaded directly from the GitHub repository, so no manual upload is needed when the notebook is opened in Google Colab.
+
+## Required libraries
+
+This project uses the following libraries:
+
+- pandas
+- numpy
+- matplotlib
+- seaborn
+- scikit-learn
+- jupyter
 
 ## How to run
 
-You can run the notebook using Google Colab:
+The easiest way is to use Google Colab:
 
-* Open the notebook in Colab
-* Upload the dataset file
-* Run all cells
+- Click the badge at the top of this README
+- Open the notebook in Colab
+- Run all cells
 
-You can also run it locally with Jupyter:
+The dataset is loaded automatically from the repository.
 
-* Install the required libraries (pandas, numpy, matplotlib, seaborn, scikit-learn)
-* Open the notebook
-* Run all cells
+You can also run the notebook locally:
 
-## What is done in this notebook
+- Clone or download the repository
+- Install the required libraries
+- Open the notebook with Jupyter
+- Run all cells
 
-* The dataset is loaded and explored
-* Some basic visualizations are created
-* Data is prepared for clustering
-* K-Means algorithm is applied
-* The data is divided into clusters
-* The cluster results are compared with the original labels
+Example installation:
 
-## Evaluation
-
-The clustering results are compared with the real data using:
-
-* Confusion matrix
-* Classification report
-
-These help to see how close the clusters are to the actual groups.
+```bash
+pip install pandas numpy matplotlib seaborn scikit-learn jupyter
